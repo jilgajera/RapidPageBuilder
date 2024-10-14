@@ -4,43 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Gold's Social Links</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 300px;
+        }
+
         h1 {
             text-align: center;
+            color: #333;
+            margin-bottom: 10px;
         }
+h3{
+text-align:center;
+}
+
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
+
         a {
-            display: inline-block;
-            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
             background-color: #f0f0f0;
             color: #333;
             text-decoration: none;
             border-radius: 5px;
+            transition: all 0.3s ease;
         }
+
         a:hover {
             background-color: #e0e0e0;
+            transform: translateY(-2px);
         }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 15px;
+            width: 24px;
+            text-align: center;
+        }
+
+        .fa-instagram { color: #E1306C; }
+        .fa-facebook { color: #4267B2; }
+        .fa-whatsapp { color: #25D366; }
     </style>
 </head>
 <body>
-    <h1>Leo Gold's Social Links</h1>
-    <ul>
-        <li><a href="https://www.instagram.com/leo_gold_01/">Instagram</a></li>
-        <li><a href="https://www.facebook.com/people/Leo-Gold/pfbid02Z6P4yteNusG5MkS29Ne2G7ihjMbWRnRBtjuivCEaGEt1HbrVX47s59imRB2jMjAyl/?mibextid=ZbWKwL">Facebook</a></li>
-        <li><a href="https://wa.me/+918799613460">WhatsApp 1</a></li>
-        <li><a href="https://wa.me/+918799153460">WhatsApp 2</a></li>
-    </ul>
+    <div class="container">
+        <h1>LEO GOLD</h1>
+<h3> MOTA VARACHHA, SURAT</h3>
+
+        <ul>
+            <li><a href="https://www.instagram.com/leo_gold_01/"><i class="fab fa-instagram icon"></i>Instagram</a></li>
+            <li><a href="https://www.facebook.com/people/Leo-Gold/pfbid02Z6P4yteNusG5MkS29Ne2G7ihjMbWRnRBtjuivCEaGEt1HbrVX47s59imRB2jMjAyl/?mibextid=ZbWKwL"><i class="fab fa-facebook icon"></i>Facebook</a></li>
+            <li><a href="https://wa.me/+918799613460"><i class="fab fa-whatsapp icon"></i>For Order</a></li>
+            <li><a href="https://wa.me/+918799153460"><i class="fab fa-whatsapp icon"></i>Account</a></li>
+        </ul>
+    </div>
 </body>
 </html>
